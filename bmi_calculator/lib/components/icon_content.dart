@@ -2,7 +2,7 @@
 //Custom Widget
 import 'package:flutter/cupertino.dart';
 
-import 'constants.dart';
+import '../constants.dart';
 
 class IconContent extends StatelessWidget {
   IconContent({this.icon, this.label});
