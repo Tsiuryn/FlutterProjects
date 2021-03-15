@@ -1,2 +1,1 @@
-# FlutterProjects
-Flutter projects
+# Flutter Projects
