@@ -62,13 +62,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_spinkit:
+    dependency: "direct main"
+    description:
+      name: flutter_spinkit
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
   flutter_test:
     dependency: "direct dev"
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -78,28 +80,28 @@ packages:
       name: geolocator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "7.0.1"
-  geolocator_platform_interface:
+    version: "3.0.1"
+  google_api_availability:
     dependency: transitive
     description:
-      name: geolocator_platform_interface
+      name: google_api_availability
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
-  geolocator_web:
-    dependency: transitive
+  http:
+    dependency: "direct main"
     description:
-      name: geolocator_web
+      name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.1"
-  js:
+    version: "0.13.0"
+  http_parser:
     dependency: transitive
     description:
-      name: js
+      name: http_parser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.3"
+    version: "4.0.0"
   matcher:
     dependency: transitive
     description:
@@ -121,13 +123,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
-  plugin_platform_interface:
+  pedantic:
     dependency: transitive
     description:
-      name: plugin_platform_interface
+      name: pedantic
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0"
+    version: "1.11.0"
+  permission_handler:
+    dependency: transitive
+    description:
+      name: permission_handler
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -191,4 +200,4 @@ packages:
     version: "2.1.0"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=0.1.4"
